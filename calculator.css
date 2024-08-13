@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin: 3px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.first-row button {
+    color: #000;
+    background-color: #a5a5a5;
+}
+
+.zero {
+    flex: 2;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* !important is used because the division button didn't follow the orange button styles */
+.orange-button {
+    color: #fff !important;
+    background-color: #ff9f0a !important;
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+}
