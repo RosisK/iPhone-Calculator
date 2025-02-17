@@ -1,3 +1,4 @@
+
 // Variables to store result
 let calculation = "";
 let result = 0;
