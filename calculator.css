@@ -9,6 +9,7 @@ body {
     align-items: center;
 }
 
+/* Styles for the container div */
 .container {
     display: flex;
     flex-direction: column;
